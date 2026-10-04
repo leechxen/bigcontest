@@ -1,0 +1,433 @@
+﻿disaster_type,model,feature_set,feature,feature_group,importance_mean,importance_std,n_test_rows,permutation_repeats
+cold_wave,CatBoost,A_weather_region_industry,MCT_RY_CD,industry,1.3224912642389257,0.907189261898339,170,5
+cold_wave,CatBoost,A_weather_region_industry,avg_temp,weather,0.0,0.0,170,5
+cold_wave,CatBoost,A_weather_region_industry,min_temp,weather,0.0,0.0,170,5
+cold_wave,CatBoost,A_weather_region_industry,max_temp,weather,0.0,0.0,170,5
+cold_wave,CatBoost,A_weather_region_industry,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Extra Trees,A_weather_region_industry,MCT_RY_CD,industry,3.567749227268936,1.2079609443102206,170,5
+cold_wave,Extra Trees,A_weather_region_industry,avg_temp,weather,0.0,0.0,170,5
+cold_wave,Extra Trees,A_weather_region_industry,min_temp,weather,0.0,0.0,170,5
+cold_wave,Extra Trees,A_weather_region_industry,max_temp,weather,0.0,0.0,170,5
+cold_wave,Extra Trees,A_weather_region_industry,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Gradient Boosting,A_weather_region_industry,MCT_RY_CD,industry,1.5236964902667183,0.2919530906706325,170,5
+cold_wave,Gradient Boosting,A_weather_region_industry,avg_temp,weather,0.0,0.0,170,5
+cold_wave,Gradient Boosting,A_weather_region_industry,min_temp,weather,0.0,0.0,170,5
+cold_wave,Gradient Boosting,A_weather_region_industry,max_temp,weather,0.0,0.0,170,5
+cold_wave,Gradient Boosting,A_weather_region_industry,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,A_weather_region_industry,avg_temp,weather,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,A_weather_region_industry,min_temp,weather,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,A_weather_region_industry,max_temp,weather,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,A_weather_region_industry,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,A_weather_region_industry,MCT_RY_CD,industry,0.0,0.0,170,5
+cold_wave,LightGBM,A_weather_region_industry,avg_temp,weather,0.0,0.0,170,5
+cold_wave,LightGBM,A_weather_region_industry,min_temp,weather,0.0,0.0,170,5
+cold_wave,LightGBM,A_weather_region_industry,max_temp,weather,0.0,0.0,170,5
+cold_wave,LightGBM,A_weather_region_industry,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,LightGBM,A_weather_region_industry,MCT_RY_CD,industry,0.0,0.0,170,5
+cold_wave,Linear Regression,A_weather_region_industry,max_temp,weather,3.69467918501161,0.9935372587602909,170,5
+cold_wave,Linear Regression,A_weather_region_industry,MCT_RY_CD,industry,2.1769815203450036,0.8462874933711306,170,5
+cold_wave,Linear Regression,A_weather_region_industry,avg_temp,weather,1.4213171663858475,0.5432204760327107,170,5
+cold_wave,Linear Regression,A_weather_region_industry,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Linear Regression,A_weather_region_industry,min_temp,weather,-0.006170772967873006,1.2357765959759992,170,5
+cold_wave,Random Forest,A_weather_region_industry,MCT_RY_CD,industry,2.360125946366021,0.9985570800553305,170,5
+cold_wave,Random Forest,A_weather_region_industry,avg_temp,weather,0.0,0.0,170,5
+cold_wave,Random Forest,A_weather_region_industry,min_temp,weather,0.0,0.0,170,5
+cold_wave,Random Forest,A_weather_region_industry,max_temp,weather,0.0,0.0,170,5
+cold_wave,Random Forest,A_weather_region_industry,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Ridge,A_weather_region_industry,max_temp,weather,2.4678032413252025,0.705908160220629,170,5
+cold_wave,Ridge,A_weather_region_industry,avg_temp,weather,1.0931827958111584,0.4100799107652561,170,5
+cold_wave,Ridge,A_weather_region_industry,MCT_RY_CD,industry,0.5688950417546537,0.5679666790234414,170,5
+cold_wave,Ridge,A_weather_region_industry,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Ridge,A_weather_region_industry,min_temp,weather,-0.5981850631561827,0.5840333586286786,170,5
+cold_wave,XGBoost,A_weather_region_industry,MCT_RY_CD,industry,0.9205636211069972,0.9113935595636202,170,5
+cold_wave,XGBoost,A_weather_region_industry,avg_temp,weather,0.0,0.0,170,5
+cold_wave,XGBoost,A_weather_region_industry,min_temp,weather,0.0,0.0,170,5
+cold_wave,XGBoost,A_weather_region_industry,max_temp,weather,0.0,0.0,170,5
+cold_wave,XGBoost,A_weather_region_industry,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,CatBoost,B_plus_past_sales,rolling28,past_sales,4.8097912715937925,0.5326984133886757,170,5
+cold_wave,CatBoost,B_plus_past_sales,lag1,past_sales,3.5546224229947656,0.5070549121963516,170,5
+cold_wave,CatBoost,B_plus_past_sales,rolling7,past_sales,2.2636095870027675,0.3211271956066716,170,5
+cold_wave,CatBoost,B_plus_past_sales,lag7,past_sales,1.9011073978548496,0.5729899779445455,170,5
+cold_wave,CatBoost,B_plus_past_sales,MCT_RY_CD,industry,1.7320085931515379,0.6804625564078016,170,5
+cold_wave,CatBoost,B_plus_past_sales,avg_temp,weather,0.0,0.0,170,5
+cold_wave,CatBoost,B_plus_past_sales,min_temp,weather,0.0,0.0,170,5
+cold_wave,CatBoost,B_plus_past_sales,max_temp,weather,0.0,0.0,170,5
+cold_wave,CatBoost,B_plus_past_sales,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Extra Trees,B_plus_past_sales,MCT_RY_CD,industry,1.9903783805219022,1.1283551749781517,170,5
+cold_wave,Extra Trees,B_plus_past_sales,lag7,past_sales,1.1817092137633167,0.21306549441049835,170,5
+cold_wave,Extra Trees,B_plus_past_sales,rolling28,past_sales,0.7373073360689233,0.20791672836062047,170,5
+cold_wave,Extra Trees,B_plus_past_sales,rolling7,past_sales,0.41436529521674714,0.1701956847016017,170,5
+cold_wave,Extra Trees,B_plus_past_sales,lag1,past_sales,0.06881867646102365,0.28682027395753656,170,5
+cold_wave,Extra Trees,B_plus_past_sales,avg_temp,weather,0.0,0.0,170,5
+cold_wave,Extra Trees,B_plus_past_sales,min_temp,weather,0.0,0.0,170,5
+cold_wave,Extra Trees,B_plus_past_sales,max_temp,weather,0.0,0.0,170,5
+cold_wave,Extra Trees,B_plus_past_sales,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Gradient Boosting,B_plus_past_sales,MCT_RY_CD,industry,1.6515659521086037,0.292135157265156,170,5
+cold_wave,Gradient Boosting,B_plus_past_sales,lag7,past_sales,1.5827695377040556,0.5059890427328982,170,5
+cold_wave,Gradient Boosting,B_plus_past_sales,rolling28,past_sales,0.6122406013753775,0.11706607711482381,170,5
+cold_wave,Gradient Boosting,B_plus_past_sales,avg_temp,weather,0.0,0.0,170,5
+cold_wave,Gradient Boosting,B_plus_past_sales,min_temp,weather,0.0,0.0,170,5
+cold_wave,Gradient Boosting,B_plus_past_sales,max_temp,weather,0.0,0.0,170,5
+cold_wave,Gradient Boosting,B_plus_past_sales,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Gradient Boosting,B_plus_past_sales,rolling7,past_sales,-0.13605067467622406,0.28665214844806,170,5
+cold_wave,Gradient Boosting,B_plus_past_sales,lag1,past_sales,-0.4007853738205469,0.4135363335502031,170,5
+cold_wave,HistGradientBoosting,B_plus_past_sales,rolling28,past_sales,11.7602771668916,0.9244161043910967,170,5
+cold_wave,HistGradientBoosting,B_plus_past_sales,lag1,past_sales,6.483648080981345,0.885155109503745,170,5
+cold_wave,HistGradientBoosting,B_plus_past_sales,lag7,past_sales,5.1467604204913755,1.5654213238230585,170,5
+cold_wave,HistGradientBoosting,B_plus_past_sales,rolling7,past_sales,4.717290775821647,0.868346588494311,170,5
+cold_wave,HistGradientBoosting,B_plus_past_sales,avg_temp,weather,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,B_plus_past_sales,min_temp,weather,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,B_plus_past_sales,max_temp,weather,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,B_plus_past_sales,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,B_plus_past_sales,MCT_RY_CD,industry,0.0,0.0,170,5
+cold_wave,LightGBM,B_plus_past_sales,rolling28,past_sales,8.546650484165248,0.710504177769374,170,5
+cold_wave,LightGBM,B_plus_past_sales,lag7,past_sales,5.489436652327913,1.5593451833710636,170,5
+cold_wave,LightGBM,B_plus_past_sales,lag1,past_sales,5.364815127782802,0.7332661234325084,170,5
+cold_wave,LightGBM,B_plus_past_sales,rolling7,past_sales,5.121396225452163,0.94656111224666,170,5
+cold_wave,LightGBM,B_plus_past_sales,avg_temp,weather,0.0,0.0,170,5
+cold_wave,LightGBM,B_plus_past_sales,min_temp,weather,0.0,0.0,170,5
+cold_wave,LightGBM,B_plus_past_sales,max_temp,weather,0.0,0.0,170,5
+cold_wave,LightGBM,B_plus_past_sales,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,LightGBM,B_plus_past_sales,MCT_RY_CD,industry,0.0,0.0,170,5
+cold_wave,Linear Regression,B_plus_past_sales,max_temp,weather,3.0813995534499172,0.962492167126974,170,5
+cold_wave,Linear Regression,B_plus_past_sales,MCT_RY_CD,industry,2.572492364195098,0.8928019550403697,170,5
+cold_wave,Linear Regression,B_plus_past_sales,lag7,past_sales,2.32134237515111,0.4961462894462713,170,5
+cold_wave,Linear Regression,B_plus_past_sales,rolling7,past_sales,2.248050772193648,0.8142128083712044,170,5
+cold_wave,Linear Regression,B_plus_past_sales,lag1,past_sales,1.610832480643444,0.30613645666052786,170,5
+cold_wave,Linear Regression,B_plus_past_sales,avg_temp,weather,1.1717316851825714,0.5361435289514959,170,5
+cold_wave,Linear Regression,B_plus_past_sales,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Linear Regression,B_plus_past_sales,min_temp,weather,-0.014041051769861212,1.1704536936581877,170,5
+cold_wave,Linear Regression,B_plus_past_sales,rolling28,past_sales,-0.22741870444410636,0.6285518680165524,170,5
+cold_wave,Random Forest,B_plus_past_sales,rolling28,past_sales,7.513665013314228,0.7588004372232039,170,5
+cold_wave,Random Forest,B_plus_past_sales,lag1,past_sales,3.8727531284268535,0.45199815269771176,170,5
+cold_wave,Random Forest,B_plus_past_sales,rolling7,past_sales,3.5164361706465472,0.2574850911031351,170,5
+cold_wave,Random Forest,B_plus_past_sales,lag7,past_sales,3.324329189273692,0.8919174184728274,170,5
+cold_wave,Random Forest,B_plus_past_sales,MCT_RY_CD,industry,1.590374462164057,0.6265137059887331,170,5
+cold_wave,Random Forest,B_plus_past_sales,avg_temp,weather,0.0,0.0,170,5
+cold_wave,Random Forest,B_plus_past_sales,min_temp,weather,0.0,0.0,170,5
+cold_wave,Random Forest,B_plus_past_sales,max_temp,weather,0.0,0.0,170,5
+cold_wave,Random Forest,B_plus_past_sales,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Ridge,B_plus_past_sales,max_temp,weather,2.115756415650824,0.6575696047399591,170,5
+cold_wave,Ridge,B_plus_past_sales,lag1,past_sales,0.9510655912920243,0.3322838567418711,170,5
+cold_wave,Ridge,B_plus_past_sales,lag7,past_sales,0.9378402530367993,0.3373574304560935,170,5
+cold_wave,Ridge,B_plus_past_sales,avg_temp,weather,0.890403027050823,0.38963670281260354,170,5
+cold_wave,Ridge,B_plus_past_sales,MCT_RY_CD,industry,0.6958263236837624,0.59359570705995,170,5
+cold_wave,Ridge,B_plus_past_sales,rolling7,past_sales,0.1954120585488198,0.6400848985101831,170,5
+cold_wave,Ridge,B_plus_past_sales,rolling28,past_sales,0.09459105361229661,0.6395810253677451,170,5
+cold_wave,Ridge,B_plus_past_sales,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Ridge,B_plus_past_sales,min_temp,weather,-0.5488906119988485,0.5845399724715608,170,5
+cold_wave,XGBoost,B_plus_past_sales,rolling28,past_sales,6.858537323973211,0.42212647030707423,170,5
+cold_wave,XGBoost,B_plus_past_sales,rolling7,past_sales,5.1103252857669785,0.3999655641641275,170,5
+cold_wave,XGBoost,B_plus_past_sales,lag1,past_sales,4.265507453953951,0.7743939467540933,170,5
+cold_wave,XGBoost,B_plus_past_sales,MCT_RY_CD,industry,2.8680435181958557,0.6325271789343219,170,5
+cold_wave,XGBoost,B_plus_past_sales,lag7,past_sales,2.6399082079490954,1.4397555852605384,170,5
+cold_wave,XGBoost,B_plus_past_sales,avg_temp,weather,0.0,0.0,170,5
+cold_wave,XGBoost,B_plus_past_sales,min_temp,weather,0.0,0.0,170,5
+cold_wave,XGBoost,B_plus_past_sales,max_temp,weather,0.0,0.0,170,5
+cold_wave,XGBoost,B_plus_past_sales,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,CatBoost,C_plus_flow_population,rolling28,past_sales,4.888920299680782,0.648815897217903,170,5
+cold_wave,CatBoost,C_plus_flow_population,lag1,past_sales,3.9472130331027655,0.43317515260294925,170,5
+cold_wave,CatBoost,C_plus_flow_population,lag7,past_sales,2.097552153713876,0.5558546514659019,170,5
+cold_wave,CatBoost,C_plus_flow_population,rolling7,past_sales,1.7546789367496571,0.3299485836258438,170,5
+cold_wave,CatBoost,C_plus_flow_population,MCT_RY_CD,industry,0.9257203084799827,0.7279480159397921,170,5
+cold_wave,CatBoost,C_plus_flow_population,avg_temp,weather,0.0,0.0,170,5
+cold_wave,CatBoost,C_plus_flow_population,min_temp,weather,0.0,0.0,170,5
+cold_wave,CatBoost,C_plus_flow_population,max_temp,weather,0.0,0.0,170,5
+cold_wave,CatBoost,C_plus_flow_population,flow_pop_weekday,flow_population,0.0,0.0,170,5
+cold_wave,CatBoost,C_plus_flow_population,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Extra Trees,C_plus_flow_population,MCT_RY_CD,industry,1.526253570940625,1.077881632227524,170,5
+cold_wave,Extra Trees,C_plus_flow_population,lag7,past_sales,1.079126373035686,0.1545495107322335,170,5
+cold_wave,Extra Trees,C_plus_flow_population,rolling28,past_sales,0.6149753231715565,0.18468776207648854,170,5
+cold_wave,Extra Trees,C_plus_flow_population,rolling7,past_sales,0.4718351995918411,0.1890770228896902,170,5
+cold_wave,Extra Trees,C_plus_flow_population,lag1,past_sales,0.15055137735703283,0.35620843278931424,170,5
+cold_wave,Extra Trees,C_plus_flow_population,avg_temp,weather,0.0,0.0,170,5
+cold_wave,Extra Trees,C_plus_flow_population,min_temp,weather,0.0,0.0,170,5
+cold_wave,Extra Trees,C_plus_flow_population,max_temp,weather,0.0,0.0,170,5
+cold_wave,Extra Trees,C_plus_flow_population,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Extra Trees,C_plus_flow_population,flow_pop_weekday,flow_population,-0.003789537251716979,0.02071024835365368,170,5
+cold_wave,Gradient Boosting,C_plus_flow_population,MCT_RY_CD,industry,1.7841238378582118,0.3978102070607334,170,5
+cold_wave,Gradient Boosting,C_plus_flow_population,lag7,past_sales,1.6371834643499086,0.5579256199603735,170,5
+cold_wave,Gradient Boosting,C_plus_flow_population,rolling28,past_sales,0.7687889959478837,0.1482670658799876,170,5
+cold_wave,Gradient Boosting,C_plus_flow_population,avg_temp,weather,0.0,0.0,170,5
+cold_wave,Gradient Boosting,C_plus_flow_population,min_temp,weather,0.0,0.0,170,5
+cold_wave,Gradient Boosting,C_plus_flow_population,max_temp,weather,0.0,0.0,170,5
+cold_wave,Gradient Boosting,C_plus_flow_population,flow_pop_weekday,flow_population,0.0,0.0,170,5
+cold_wave,Gradient Boosting,C_plus_flow_population,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Gradient Boosting,C_plus_flow_population,rolling7,past_sales,-0.184339107722316,0.2682374983196217,170,5
+cold_wave,Gradient Boosting,C_plus_flow_population,lag1,past_sales,-0.4440510054764758,0.4092402892628621,170,5
+cold_wave,HistGradientBoosting,C_plus_flow_population,rolling28,past_sales,11.680744355508882,0.9038450805470882,170,5
+cold_wave,HistGradientBoosting,C_plus_flow_population,lag1,past_sales,6.151519994297691,0.992735262493166,170,5
+cold_wave,HistGradientBoosting,C_plus_flow_population,rolling7,past_sales,4.870170364001835,1.012309207401958,170,5
+cold_wave,HistGradientBoosting,C_plus_flow_population,lag7,past_sales,4.018810337388172,1.5854697245081653,170,5
+cold_wave,HistGradientBoosting,C_plus_flow_population,avg_temp,weather,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,C_plus_flow_population,min_temp,weather,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,C_plus_flow_population,max_temp,weather,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,C_plus_flow_population,flow_pop_weekday,flow_population,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,C_plus_flow_population,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,HistGradientBoosting,C_plus_flow_population,MCT_RY_CD,industry,0.0,0.0,170,5
+cold_wave,LightGBM,C_plus_flow_population,rolling28,past_sales,8.46303832256869,0.7685900180634546,170,5
+cold_wave,LightGBM,C_plus_flow_population,lag1,past_sales,6.226819530826996,0.7787090384687247,170,5
+cold_wave,LightGBM,C_plus_flow_population,rolling7,past_sales,6.032289858767645,0.9461035833344295,170,5
+cold_wave,LightGBM,C_plus_flow_population,lag7,past_sales,3.9146967393158336,1.1908539823087314,170,5
+cold_wave,LightGBM,C_plus_flow_population,avg_temp,weather,0.0,0.0,170,5
+cold_wave,LightGBM,C_plus_flow_population,min_temp,weather,0.0,0.0,170,5
+cold_wave,LightGBM,C_plus_flow_population,max_temp,weather,0.0,0.0,170,5
+cold_wave,LightGBM,C_plus_flow_population,flow_pop_weekday,flow_population,0.0,0.0,170,5
+cold_wave,LightGBM,C_plus_flow_population,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,LightGBM,C_plus_flow_population,MCT_RY_CD,industry,0.0,0.0,170,5
+cold_wave,Linear Regression,C_plus_flow_population,max_temp,weather,3.257296877386037,0.9481732349289279,170,5
+cold_wave,Linear Regression,C_plus_flow_population,MCT_RY_CD,industry,2.9979408956743767,0.929413990587641,170,5
+cold_wave,Linear Regression,C_plus_flow_population,rolling7,past_sales,2.5412063782671424,0.8288565796575073,170,5
+cold_wave,Linear Regression,C_plus_flow_population,lag7,past_sales,2.4945165625442103,0.43007529856677246,170,5
+cold_wave,Linear Regression,C_plus_flow_population,lag1,past_sales,1.9495057318568427,0.3218240028553624,170,5
+cold_wave,Linear Regression,C_plus_flow_population,avg_temp,weather,1.1283977102347151,0.530275214683455,170,5
+cold_wave,Linear Regression,C_plus_flow_population,min_temp,weather,0.5242460606279223,1.08863640822457,170,5
+cold_wave,Linear Regression,C_plus_flow_population,flow_pop_weekday,flow_population,0.16103249826142302,0.10933944419988116,170,5
+cold_wave,Linear Regression,C_plus_flow_population,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Linear Regression,C_plus_flow_population,rolling28,past_sales,-0.06475811665411868,0.673730888865548,170,5
+cold_wave,Random Forest,C_plus_flow_population,rolling28,past_sales,7.176844922068803,0.7512114558956099,170,5
+cold_wave,Random Forest,C_plus_flow_population,rolling7,past_sales,4.1771839930002415,0.3506295538143555,170,5
+cold_wave,Random Forest,C_plus_flow_population,lag7,past_sales,3.854831772002119,0.8990512142460046,170,5
+cold_wave,Random Forest,C_plus_flow_population,lag1,past_sales,3.7885236293207414,0.3569242267594302,170,5
+cold_wave,Random Forest,C_plus_flow_population,MCT_RY_CD,industry,1.5258877042956953,0.6321608999870407,170,5
+cold_wave,Random Forest,C_plus_flow_population,avg_temp,weather,0.0,0.0,170,5
+cold_wave,Random Forest,C_plus_flow_population,min_temp,weather,0.0,0.0,170,5
+cold_wave,Random Forest,C_plus_flow_population,max_temp,weather,0.0,0.0,170,5
+cold_wave,Random Forest,C_plus_flow_population,flow_pop_weekday,flow_population,0.0,0.0,170,5
+cold_wave,Random Forest,C_plus_flow_population,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Ridge,C_plus_flow_population,max_temp,weather,2.2783687388968574,0.6452555617330411,170,5
+cold_wave,Ridge,C_plus_flow_population,lag1,past_sales,1.3111564348420472,0.39429187918778896,170,5
+cold_wave,Ridge,C_plus_flow_population,MCT_RY_CD,industry,1.1613446917640047,0.6830477524863571,170,5
+cold_wave,Ridge,C_plus_flow_population,lag7,past_sales,1.1580965452321181,0.34681951901895874,170,5
+cold_wave,Ridge,C_plus_flow_population,avg_temp,weather,1.1146184941495634,0.33726703486823706,170,5
+cold_wave,Ridge,C_plus_flow_population,rolling7,past_sales,0.43621210569462504,0.6625476191813724,170,5
+cold_wave,Ridge,C_plus_flow_population,rolling28,past_sales,0.3350398814944498,0.6468124291599233,170,5
+cold_wave,Ridge,C_plus_flow_population,flow_pop_weekday,flow_population,0.3019475802173403,0.10542723755168168,170,5
+cold_wave,Ridge,C_plus_flow_population,MCT_SGG_CD,region,0.0,0.0,170,5
+cold_wave,Ridge,C_plus_flow_population,min_temp,weather,-0.26518092291818507,0.5477708169810747,170,5
+cold_wave,XGBoost,C_plus_flow_population,rolling28,past_sales,5.726534062747599,0.39280549354522454,170,5
+cold_wave,XGBoost,C_plus_flow_population,rolling7,past_sales,5.341943728057556,0.487403900559593,170,5
+cold_wave,XGBoost,C_plus_flow_population,lag1,past_sales,3.619464169844835,0.6380580292200415,170,5
+cold_wave,XGBoost,C_plus_flow_population,MCT_RY_CD,industry,2.8809938016250927,0.7416527018101249,170,5
+cold_wave,XGBoost,C_plus_flow_population,lag7,past_sales,2.468922370066508,0.9476840319208917,170,5
+cold_wave,XGBoost,C_plus_flow_population,avg_temp,weather,0.0,0.0,170,5
+cold_wave,XGBoost,C_plus_flow_population,min_temp,weather,0.0,0.0,170,5
+cold_wave,XGBoost,C_plus_flow_population,max_temp,weather,0.0,0.0,170,5
+cold_wave,XGBoost,C_plus_flow_population,flow_pop_weekday,flow_population,0.0,0.0,170,5
+cold_wave,XGBoost,C_plus_flow_population,MCT_SGG_CD,region,0.0,0.0,170,5
+heatwave,CatBoost,A_weather_region_industry,MCT_SGG_CD,region,0.28558762649075503,0.4017587014782152,162,5
+heatwave,CatBoost,A_weather_region_industry,avg_temp,weather,0.09630705172054377,0.12403949085857383,162,5
+heatwave,CatBoost,A_weather_region_industry,max_temp,weather,0.08211162895388639,0.11096394419806678,162,5
+heatwave,CatBoost,A_weather_region_industry,min_temp,weather,-0.06549027387442123,0.16075896155383315,162,5
+heatwave,CatBoost,A_weather_region_industry,MCT_RY_CD,industry,-0.15677914711371557,0.9832264555276493,162,5
+heatwave,Extra Trees,A_weather_region_industry,MCT_SGG_CD,region,1.2849739511548421,0.9404964590848232,162,5
+heatwave,Extra Trees,A_weather_region_industry,max_temp,weather,1.005390277339221,0.16444349760067914,162,5
+heatwave,Extra Trees,A_weather_region_industry,avg_temp,weather,0.5765178580441628,0.19086679660824912,162,5
+heatwave,Extra Trees,A_weather_region_industry,MCT_RY_CD,industry,0.30643669232124465,1.2447341591467114,162,5
+heatwave,Extra Trees,A_weather_region_industry,min_temp,weather,-0.09958426484353282,0.08236893840163587,162,5
+heatwave,Gradient Boosting,A_weather_region_industry,MCT_RY_CD,industry,1.0926338031761689,0.9014243539674464,162,5
+heatwave,Gradient Boosting,A_weather_region_industry,MCT_SGG_CD,region,0.15151037143433968,0.1181037735817715,162,5
+heatwave,Gradient Boosting,A_weather_region_industry,avg_temp,weather,0.019792925119526218,0.026630524494713474,162,5
+heatwave,Gradient Boosting,A_weather_region_industry,min_temp,weather,0.0,0.0,162,5
+heatwave,Gradient Boosting,A_weather_region_industry,max_temp,weather,0.0,0.05349332929202627,162,5
+heatwave,HistGradientBoosting,A_weather_region_industry,MCT_RY_CD,industry,1.4104561575980852,1.6154646417873397,162,5
+heatwave,HistGradientBoosting,A_weather_region_industry,MCT_SGG_CD,region,0.5261120749872348,0.15188815186819957,162,5
+heatwave,HistGradientBoosting,A_weather_region_industry,avg_temp,weather,0.0521255719066616,0.048796047790050236,162,5
+heatwave,HistGradientBoosting,A_weather_region_industry,min_temp,weather,-0.024455234181812103,0.01496882018458852,162,5
+heatwave,HistGradientBoosting,A_weather_region_industry,max_temp,weather,-0.04109434855350571,0.11222240801984325,162,5
+heatwave,LightGBM,A_weather_region_industry,MCT_RY_CD,industry,1.6575535058463842,1.6639265850183595,162,5
+heatwave,LightGBM,A_weather_region_industry,MCT_SGG_CD,region,0.49037640726147913,0.1956181280420402,162,5
+heatwave,LightGBM,A_weather_region_industry,max_temp,weather,0.017467856170081574,0.1477883940071229,162,5
+heatwave,LightGBM,A_weather_region_industry,min_temp,weather,-0.002958124997628886,0.017928045927113122,162,5
+heatwave,LightGBM,A_weather_region_industry,avg_temp,weather,-0.005349620924391729,0.04562231069241305,162,5
+heatwave,Linear Regression,A_weather_region_industry,MCT_RY_CD,industry,0.9722450016826812,1.7958780338404885,162,5
+heatwave,Linear Regression,A_weather_region_industry,max_temp,weather,0.014278621963052273,0.008447346672610928,162,5
+heatwave,Linear Regression,A_weather_region_industry,min_temp,weather,0.009705223263031826,0.005741687513689307,162,5
+heatwave,Linear Regression,A_weather_region_industry,avg_temp,weather,-0.07583297430535793,0.04837985887825616,162,5
+heatwave,Linear Regression,A_weather_region_industry,MCT_SGG_CD,region,-0.09547513419137772,0.0664847585720063,162,5
+heatwave,Random Forest,A_weather_region_industry,max_temp,weather,0.8329563282112048,0.25735543639343195,162,5
+heatwave,Random Forest,A_weather_region_industry,MCT_RY_CD,industry,0.7161114729606212,1.3902487459669666,162,5
+heatwave,Random Forest,A_weather_region_industry,MCT_SGG_CD,region,0.4960546033358611,0.3409081425534295,162,5
+heatwave,Random Forest,A_weather_region_industry,avg_temp,weather,0.2802461819523387,0.22837839508210497,162,5
+heatwave,Random Forest,A_weather_region_industry,min_temp,weather,-0.0894928282857009,0.25632736564317293,162,5
+heatwave,Ridge,A_weather_region_industry,MCT_RY_CD,industry,0.945149215596048,1.530532750774945,162,5
+heatwave,Ridge,A_weather_region_industry,max_temp,weather,0.006272001938116034,0.008645358048820195,162,5
+heatwave,Ridge,A_weather_region_industry,min_temp,weather,0.004146908712196762,0.005716119185942084,162,5
+heatwave,Ridge,A_weather_region_industry,avg_temp,weather,-0.024708656098361814,0.053635546940432044,162,5
+heatwave,Ridge,A_weather_region_industry,MCT_SGG_CD,region,-0.03249353800348729,0.07866439081365961,162,5
+heatwave,XGBoost,A_weather_region_industry,MCT_RY_CD,industry,1.2683722259612935,1.615672906869256,162,5
+heatwave,XGBoost,A_weather_region_industry,MCT_SGG_CD,region,0.41650555898627883,0.3074977167854729,162,5
+heatwave,XGBoost,A_weather_region_industry,max_temp,weather,0.31899906428383956,0.5129854100181049,162,5
+heatwave,XGBoost,A_weather_region_industry,avg_temp,weather,0.2819962925623045,0.11768499218125762,162,5
+heatwave,XGBoost,A_weather_region_industry,min_temp,weather,-0.028428460223518925,0.10008522081580021,162,5
+heatwave,CatBoost,B_plus_past_sales,lag7,past_sales,6.044158645077994,1.1342298734117067,162,5
+heatwave,CatBoost,B_plus_past_sales,lag1,past_sales,4.159014192036736,1.1349824458358833,162,5
+heatwave,CatBoost,B_plus_past_sales,rolling28,past_sales,0.6099795761662264,0.5111994129223665,162,5
+heatwave,CatBoost,B_plus_past_sales,MCT_SGG_CD,region,0.2563625992694469,0.20461340672390954,162,5
+heatwave,CatBoost,B_plus_past_sales,max_temp,weather,0.06543836067583583,0.041985988200173636,162,5
+heatwave,CatBoost,B_plus_past_sales,min_temp,weather,0.0468288896713517,0.02598681708063108,162,5
+heatwave,CatBoost,B_plus_past_sales,avg_temp,weather,0.043631914381602147,0.10649171002988797,162,5
+heatwave,CatBoost,B_plus_past_sales,rolling7,past_sales,-0.15037364271702103,0.40946585066767816,162,5
+heatwave,CatBoost,B_plus_past_sales,MCT_RY_CD,industry,-0.5847312174998323,1.2427250007361492,162,5
+heatwave,Extra Trees,B_plus_past_sales,lag7,past_sales,1.576902874020675,0.18400803925654222,162,5
+heatwave,Extra Trees,B_plus_past_sales,MCT_RY_CD,industry,1.4688387917448353,1.5862601855230356,162,5
+heatwave,Extra Trees,B_plus_past_sales,rolling28,past_sales,1.1302796019176085,0.5547732625312918,162,5
+heatwave,Extra Trees,B_plus_past_sales,max_temp,weather,0.6890145369742967,0.09938754807171753,162,5
+heatwave,Extra Trees,B_plus_past_sales,avg_temp,weather,0.4631534248066657,0.13502400023428401,162,5
+heatwave,Extra Trees,B_plus_past_sales,MCT_SGG_CD,region,-0.04628011105710215,0.9587413998563213,162,5
+heatwave,Extra Trees,B_plus_past_sales,min_temp,weather,-0.1727785796587682,0.08083901111916342,162,5
+heatwave,Extra Trees,B_plus_past_sales,rolling7,past_sales,-0.8993580959627849,0.31702338453678497,162,5
+heatwave,Extra Trees,B_plus_past_sales,lag1,past_sales,-1.1929767562366806,0.417519132071931,162,5
+heatwave,Gradient Boosting,B_plus_past_sales,lag7,past_sales,6.599968567209667,1.0446987294538108,162,5
+heatwave,Gradient Boosting,B_plus_past_sales,MCT_RY_CD,industry,1.679113395695417,0.8973349930890837,162,5
+heatwave,Gradient Boosting,B_plus_past_sales,rolling7,past_sales,0.6013132596526916,0.4041638229454494,162,5
+heatwave,Gradient Boosting,B_plus_past_sales,lag1,past_sales,0.31595983332001937,0.24938919882897415,162,5
+heatwave,Gradient Boosting,B_plus_past_sales,rolling28,past_sales,0.2891697977266574,0.4448518904186679,162,5
+heatwave,Gradient Boosting,B_plus_past_sales,avg_temp,weather,0.0,0.0,162,5
+heatwave,Gradient Boosting,B_plus_past_sales,min_temp,weather,0.0,0.0,162,5
+heatwave,Gradient Boosting,B_plus_past_sales,max_temp,weather,0.0,0.0,162,5
+heatwave,Gradient Boosting,B_plus_past_sales,MCT_SGG_CD,region,0.0,0.0,162,5
+heatwave,HistGradientBoosting,B_plus_past_sales,lag7,past_sales,11.844739102637657,1.195924308871456,162,5
+heatwave,HistGradientBoosting,B_plus_past_sales,lag1,past_sales,5.962458851972667,1.4656219314570476,162,5
+heatwave,HistGradientBoosting,B_plus_past_sales,rolling7,past_sales,4.441335379445656,1.3750278416389685,162,5
+heatwave,HistGradientBoosting,B_plus_past_sales,rolling28,past_sales,2.832085173613508,1.0595196371479614,162,5
+heatwave,HistGradientBoosting,B_plus_past_sales,MCT_RY_CD,industry,0.7044140657574189,1.463816455030859,162,5
+heatwave,HistGradientBoosting,B_plus_past_sales,max_temp,weather,0.5675686472421205,0.3093623826931676,162,5
+heatwave,HistGradientBoosting,B_plus_past_sales,MCT_SGG_CD,region,0.1054170845644606,0.07133976331441932,162,5
+heatwave,HistGradientBoosting,B_plus_past_sales,avg_temp,weather,-0.1053995814157517,0.12949533147758427,162,5
+heatwave,HistGradientBoosting,B_plus_past_sales,min_temp,weather,-0.2282478154137479,0.1400609069148133,162,5
+heatwave,LightGBM,B_plus_past_sales,lag7,past_sales,12.833201861072785,1.103472694893204,162,5
+heatwave,LightGBM,B_plus_past_sales,rolling7,past_sales,5.235276596937733,1.186732074320221,162,5
+heatwave,LightGBM,B_plus_past_sales,lag1,past_sales,5.1106458834544455,0.9189640489299987,162,5
+heatwave,LightGBM,B_plus_past_sales,rolling28,past_sales,3.658890326334479,1.034119717554549,162,5
+heatwave,LightGBM,B_plus_past_sales,MCT_RY_CD,industry,0.6699927486251156,1.3107535176578755,162,5
+heatwave,LightGBM,B_plus_past_sales,max_temp,weather,0.45382912858716795,0.15377545032352372,162,5
+heatwave,LightGBM,B_plus_past_sales,MCT_SGG_CD,region,0.08870414266648936,0.046307309271638654,162,5
+heatwave,LightGBM,B_plus_past_sales,min_temp,weather,-0.11491200587656465,0.11608849457772262,162,5
+heatwave,LightGBM,B_plus_past_sales,avg_temp,weather,-0.221645199143461,0.229425853175064,162,5
+heatwave,Linear Regression,B_plus_past_sales,rolling7,past_sales,4.59367568553575,0.5803039187846841,162,5
+heatwave,Linear Regression,B_plus_past_sales,MCT_RY_CD,industry,1.1934762444126137,1.8482303616756306,162,5
+heatwave,Linear Regression,B_plus_past_sales,lag7,past_sales,0.9504182029519725,0.527451773678208,162,5
+heatwave,Linear Regression,B_plus_past_sales,lag1,past_sales,0.9121230284111078,0.23900988679386603,162,5
+heatwave,Linear Regression,B_plus_past_sales,rolling28,past_sales,0.3717645596441699,0.0964435862346389,162,5
+heatwave,Linear Regression,B_plus_past_sales,max_temp,weather,0.015855241384508646,0.009380087301104154,162,5
+heatwave,Linear Regression,B_plus_past_sales,min_temp,weather,0.011150296275918948,0.00659660423735218,162,5
+heatwave,Linear Regression,B_plus_past_sales,avg_temp,weather,-0.08296130102194468,0.05145727717504919,162,5
+heatwave,Linear Regression,B_plus_past_sales,MCT_SGG_CD,region,-0.11996963770687472,0.09229693471509112,162,5
+heatwave,Random Forest,B_plus_past_sales,lag7,past_sales,11.386559001670019,1.9076261284029026,162,5
+heatwave,Random Forest,B_plus_past_sales,rolling7,past_sales,8.246163720292838,1.6721330829080499,162,5
+heatwave,Random Forest,B_plus_past_sales,lag1,past_sales,7.8275175329392255,2.359585770471843,162,5
+heatwave,Random Forest,B_plus_past_sales,rolling28,past_sales,6.958153614346353,1.3199663636285122,162,5
+heatwave,Random Forest,B_plus_past_sales,MCT_SGG_CD,region,0.030039508381690894,0.038733058378948707,162,5
+heatwave,Random Forest,B_plus_past_sales,max_temp,weather,0.004007197966330978,0.055382767926575316,162,5
+heatwave,Random Forest,B_plus_past_sales,min_temp,weather,-0.11236490395322818,0.07524009961569075,162,5
+heatwave,Random Forest,B_plus_past_sales,MCT_RY_CD,industry,-0.15212350959930773,1.0343697525486863,162,5
+heatwave,Random Forest,B_plus_past_sales,avg_temp,weather,-0.15361156245515276,0.03351451880081485,162,5
+heatwave,Ridge,B_plus_past_sales,rolling7,past_sales,4.560450206295729,0.5563925498303091,162,5
+heatwave,Ridge,B_plus_past_sales,MCT_RY_CD,industry,1.06423589522216,1.585618500378253,162,5
+heatwave,Ridge,B_plus_past_sales,lag7,past_sales,0.8860164982089784,0.5253947322888862,162,5
+heatwave,Ridge,B_plus_past_sales,lag1,past_sales,0.862123483476104,0.24145539441192854,162,5
+heatwave,Ridge,B_plus_past_sales,rolling28,past_sales,0.4279079342625849,0.1056392151306802,162,5
+heatwave,Ridge,B_plus_past_sales,max_temp,weather,0.007292347364524688,0.009650911167249752,162,5
+heatwave,Ridge,B_plus_past_sales,min_temp,weather,0.0049607713795026594,0.006712519035902143,162,5
+heatwave,Ridge,B_plus_past_sales,avg_temp,weather,-0.026113075577642066,0.05911838841729739,162,5
+heatwave,Ridge,B_plus_past_sales,MCT_SGG_CD,region,-0.03282414645860001,0.10758377433397294,162,5
+heatwave,XGBoost,B_plus_past_sales,lag7,past_sales,6.563393921389517,1.0380812169443823,162,5
+heatwave,XGBoost,B_plus_past_sales,rolling7,past_sales,2.4297787428616076,0.5629333609402851,162,5
+heatwave,XGBoost,B_plus_past_sales,lag1,past_sales,2.104577684330431,0.8845351387480993,162,5
+heatwave,XGBoost,B_plus_past_sales,rolling28,past_sales,1.3510878277359553,0.5322853745462343,162,5
+heatwave,XGBoost,B_plus_past_sales,MCT_RY_CD,industry,0.37537169018713995,1.5657153128341759,162,5
+heatwave,XGBoost,B_plus_past_sales,max_temp,weather,0.2812776802163725,0.41265256342406065,162,5
+heatwave,XGBoost,B_plus_past_sales,min_temp,weather,0.13565005284768433,0.05571288091203509,162,5
+heatwave,XGBoost,B_plus_past_sales,MCT_SGG_CD,region,0.0072812398274749056,0.013999053804184708,162,5
+heatwave,XGBoost,B_plus_past_sales,avg_temp,weather,-0.18414514385136158,0.1396112790814291,162,5
+heatwave,CatBoost,C_plus_flow_population,lag7,past_sales,4.753903460319094,0.8082983279707628,162,5
+heatwave,CatBoost,C_plus_flow_population,lag1,past_sales,3.5588532703108684,1.0304975173633755,162,5
+heatwave,CatBoost,C_plus_flow_population,rolling7,past_sales,1.1478916984989922,0.5114046997488637,162,5
+heatwave,CatBoost,C_plus_flow_population,rolling28,past_sales,0.33034159896239856,0.22917980377801364,162,5
+heatwave,CatBoost,C_plus_flow_population,avg_temp,weather,0.20377294086273706,0.10148724124907467,162,5
+heatwave,CatBoost,C_plus_flow_population,min_temp,weather,0.11266966270470391,0.11640610094483568,162,5
+heatwave,CatBoost,C_plus_flow_population,MCT_SGG_CD,region,0.0068775693202454136,0.18210411001586166,162,5
+heatwave,CatBoost,C_plus_flow_population,max_temp,weather,-0.016552947011862783,0.029699789579979846,162,5
+heatwave,CatBoost,C_plus_flow_population,flow_pop_weekday,flow_population,-0.27782959781312966,0.3086512351958127,162,5
+heatwave,CatBoost,C_plus_flow_population,MCT_RY_CD,industry,-0.5494153444416157,1.0764913115497858,162,5
+heatwave,Extra Trees,C_plus_flow_population,rolling28,past_sales,1.6200274945437798,0.6305730589904255,162,5
+heatwave,Extra Trees,C_plus_flow_population,lag7,past_sales,0.966353776782725,0.20086708336922673,162,5
+heatwave,Extra Trees,C_plus_flow_population,max_temp,weather,0.2805877786751182,0.09865631829575112,162,5
+heatwave,Extra Trees,C_plus_flow_population,flow_pop_weekday,flow_population,0.14405550283486263,0.7474046357391347,162,5
+heatwave,Extra Trees,C_plus_flow_population,avg_temp,weather,0.12689134629718382,0.04351246641101162,162,5
+heatwave,Extra Trees,C_plus_flow_population,min_temp,weather,-0.040771262423324114,0.08189583313646208,162,5
+heatwave,Extra Trees,C_plus_flow_population,MCT_RY_CD,industry,-0.07593066965876147,1.6217413723006926,162,5
+heatwave,Extra Trees,C_plus_flow_population,MCT_SGG_CD,region,-0.4354741756563129,1.1015229010009115,162,5
+heatwave,Extra Trees,C_plus_flow_population,rolling7,past_sales,-0.9142491246913338,0.3860970369905616,162,5
+heatwave,Extra Trees,C_plus_flow_population,lag1,past_sales,-1.0010943544743753,0.27493238947915694,162,5
+heatwave,Gradient Boosting,C_plus_flow_population,lag7,past_sales,5.384687360359561,1.0895791255445608,162,5
+heatwave,Gradient Boosting,C_plus_flow_population,MCT_RY_CD,industry,1.454762741454927,0.9296186147316279,162,5
+heatwave,Gradient Boosting,C_plus_flow_population,rolling7,past_sales,0.45483979249099915,0.3640065519511944,162,5
+heatwave,Gradient Boosting,C_plus_flow_population,lag1,past_sales,0.26658167266044186,0.235964228295612,162,5
+heatwave,Gradient Boosting,C_plus_flow_population,rolling28,past_sales,0.12076932224665882,0.25070440698677005,162,5
+heatwave,Gradient Boosting,C_plus_flow_population,MCT_SGG_CD,region,0.003457612722304759,0.00838069977434297,162,5
+heatwave,Gradient Boosting,C_plus_flow_population,avg_temp,weather,0.0,0.0,162,5
+heatwave,Gradient Boosting,C_plus_flow_population,min_temp,weather,0.0,0.0,162,5
+heatwave,Gradient Boosting,C_plus_flow_population,max_temp,weather,0.0,0.0,162,5
+heatwave,Gradient Boosting,C_plus_flow_population,flow_pop_weekday,flow_population,-0.0458279017397885,0.14583739687928737,162,5
+heatwave,HistGradientBoosting,C_plus_flow_population,lag1,past_sales,7.614469257035364,1.5414171104608854,162,5
+heatwave,HistGradientBoosting,C_plus_flow_population,lag7,past_sales,6.417026745511464,0.8098424744712072,162,5
+heatwave,HistGradientBoosting,C_plus_flow_population,rolling7,past_sales,4.881434175318127,1.1937652572450055,162,5
+heatwave,HistGradientBoosting,C_plus_flow_population,rolling28,past_sales,3.496397319904214,0.9334707999774302,162,5
+heatwave,HistGradientBoosting,C_plus_flow_population,MCT_RY_CD,industry,1.0319084478924865,1.4327752010891508,162,5
+heatwave,HistGradientBoosting,C_plus_flow_population,max_temp,weather,0.16518932193964986,0.14787298602260585,162,5
+heatwave,HistGradientBoosting,C_plus_flow_population,min_temp,weather,0.02498711054255125,0.05583992899301258,162,5
+heatwave,HistGradientBoosting,C_plus_flow_population,MCT_SGG_CD,region,-0.024887557065451916,0.02328017793317464,162,5
+heatwave,HistGradientBoosting,C_plus_flow_population,avg_temp,weather,-0.2622698689867349,0.11679336935732726,162,5
+heatwave,HistGradientBoosting,C_plus_flow_population,flow_pop_weekday,flow_population,-0.5041280112385138,0.47222248940592176,162,5
+heatwave,LightGBM,C_plus_flow_population,lag7,past_sales,8.120205596981169,0.9619902092470903,162,5
+heatwave,LightGBM,C_plus_flow_population,lag1,past_sales,7.150942629481605,1.1817073635844422,162,5
+heatwave,LightGBM,C_plus_flow_population,rolling7,past_sales,6.424146942087438,1.2833751384779848,162,5
+heatwave,LightGBM,C_plus_flow_population,rolling28,past_sales,2.9346722124071136,0.7112888438512976,162,5
+heatwave,LightGBM,C_plus_flow_population,MCT_RY_CD,industry,0.8433575151061575,1.3444390192512041,162,5
+heatwave,LightGBM,C_plus_flow_population,max_temp,weather,0.42862824032802677,0.19453533924165978,162,5
+heatwave,LightGBM,C_plus_flow_population,MCT_SGG_CD,region,0.0,0.0,162,5
+heatwave,LightGBM,C_plus_flow_population,min_temp,weather,-0.01256502787181688,0.026326125698086646,162,5
+heatwave,LightGBM,C_plus_flow_population,avg_temp,weather,-0.08547059717527787,0.16714233064727385,162,5
+heatwave,LightGBM,C_plus_flow_population,flow_pop_weekday,flow_population,-0.29146458906300693,0.27224798003688505,162,5
+heatwave,Linear Regression,C_plus_flow_population,flow_pop_weekday,flow_population,36.34597665473795,2.4250826412157642,162,5
+heatwave,Linear Regression,C_plus_flow_population,MCT_SGG_CD,region,32.270674700667385,3.1262865451533384,162,5
+heatwave,Linear Regression,C_plus_flow_population,rolling7,past_sales,3.3667674925391653,0.37017831672379725,162,5
+heatwave,Linear Regression,C_plus_flow_population,MCT_RY_CD,industry,1.7126217008689877,1.8235747460003175,162,5
+heatwave,Linear Regression,C_plus_flow_population,rolling28,past_sales,0.3732958511541213,0.06487645648158581,162,5
+heatwave,Linear Regression,C_plus_flow_population,lag7,past_sales,0.3616994510456692,0.41065969357150633,162,5
+heatwave,Linear Regression,C_plus_flow_population,lag1,past_sales,0.3065868734693396,0.19341254478196826,162,5
+heatwave,Linear Regression,C_plus_flow_population,avg_temp,weather,0.14314538900901114,0.07571100576966863,162,5
+heatwave,Linear Regression,C_plus_flow_population,min_temp,weather,-0.019893948860703857,0.014802333777510114,162,5
+heatwave,Linear Regression,C_plus_flow_population,max_temp,weather,-0.02490533319037951,0.01929460830512842,162,5
+heatwave,Random Forest,C_plus_flow_population,lag7,past_sales,8.28825724708655,1.4332078723903958,162,5
+heatwave,Random Forest,C_plus_flow_population,lag1,past_sales,6.239390987804571,1.9970208420601823,162,5
+heatwave,Random Forest,C_plus_flow_population,rolling7,past_sales,5.673146898258298,1.3854238188103636,162,5
+heatwave,Random Forest,C_plus_flow_population,rolling28,past_sales,4.949826840089619,0.9863998525353961,162,5
+heatwave,Random Forest,C_plus_flow_population,flow_pop_weekday,flow_population,0.13419327165673564,0.25256643540571305,162,5
+heatwave,Random Forest,C_plus_flow_population,max_temp,weather,0.08202313593070301,0.0443582107841572,162,5
+heatwave,Random Forest,C_plus_flow_population,MCT_SGG_CD,region,0.03751744632342735,0.02781796024419264,162,5
+heatwave,Random Forest,C_plus_flow_population,min_temp,weather,-0.04172355408704931,0.05092101811783691,162,5
+heatwave,Random Forest,C_plus_flow_population,avg_temp,weather,-0.23122555398695396,0.0705942333674424,162,5
+heatwave,Random Forest,C_plus_flow_population,MCT_RY_CD,industry,-0.5638253827590972,1.1551690651306699,162,5
+heatwave,Ridge,C_plus_flow_population,flow_pop_weekday,flow_population,29.58640485435111,2.0222361104865985,162,5
+heatwave,Ridge,C_plus_flow_population,MCT_SGG_CD,region,25.137993535644206,2.4929764089359554,162,5
+heatwave,Ridge,C_plus_flow_population,rolling7,past_sales,3.5234687676669196,0.41592753975387414,162,5
+heatwave,Ridge,C_plus_flow_population,MCT_RY_CD,industry,1.324008403106572,1.533721045743061,162,5
+heatwave,Ridge,C_plus_flow_population,rolling28,past_sales,0.41868584976113254,0.09233533178721137,162,5
+heatwave,Ridge,C_plus_flow_population,lag7,past_sales,0.3501742504160063,0.42715107549592235,162,5
+heatwave,Ridge,C_plus_flow_population,lag1,past_sales,0.34798223388634286,0.1891706476981245,162,5
+heatwave,Ridge,C_plus_flow_population,avg_temp,weather,0.22219350757697498,0.0805626078501465,162,5
+heatwave,Ridge,C_plus_flow_population,min_temp,weather,-0.03547617379783787,0.015799731605639022,162,5
+heatwave,Ridge,C_plus_flow_population,max_temp,weather,-0.053627370917629945,0.02470565758009332,162,5
+heatwave,XGBoost,C_plus_flow_population,lag7,past_sales,4.6160133470622835,1.0064989173495125,162,5
+heatwave,XGBoost,C_plus_flow_population,rolling7,past_sales,3.7479445989962388,1.0450606938569196,162,5
+heatwave,XGBoost,C_plus_flow_population,lag1,past_sales,2.54590018981729,1.091904237315411,162,5
+heatwave,XGBoost,C_plus_flow_population,rolling28,past_sales,1.2959492795986036,0.3246350654323949,162,5
+heatwave,XGBoost,C_plus_flow_population,max_temp,weather,0.3167916280251973,0.28934924633239634,162,5
+heatwave,XGBoost,C_plus_flow_population,min_temp,weather,0.0844066236490093,0.03484342647907452,162,5
+heatwave,XGBoost,C_plus_flow_population,MCT_SGG_CD,region,0.027716997523369,0.03793294480032609,162,5
+heatwave,XGBoost,C_plus_flow_population,MCT_RY_CD,industry,-0.32932510746724547,1.4921311950313638,162,5
+heatwave,XGBoost,C_plus_flow_population,avg_temp,weather,-0.3781910306684665,0.21147682353451544,162,5
+heatwave,XGBoost,C_plus_flow_population,flow_pop_weekday,flow_population,-0.5255136583705493,0.27934215649039823,162,5

@@ -1,0 +1,11 @@
+/card_data/
+/flow_data/
+/weather_data/
+/catboost_info/
+/modeling/__pycache__/
+/modeling/daily_card_agg.csv
+/modeling/modeling_dataset*.csv
+/modeling/weather_daily.csv
+/modeling/analysis_gb_feature_b/test_outlier_rows.csv
+/modeling/weather_model_comparison/predictions.csv
+/modeling/weather_model_comparison_extended/predictions_extended.csv

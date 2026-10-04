@@ -1,0 +1,86 @@
+{
+  "input": "C:\\Users\\admin\\Desktop\\bigcontest\\modeling\\modeling_dataset_v2_filtered.csv",
+  "seed": 20261003,
+  "split": {
+    "method": "Week + Episode-aware grouped stratified split",
+    "ratios_target": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "shared_across_all_models_and_feature_sets": true
+  },
+  "baseline": "Train rows only, seasonal months, event flag exactly 0; missing event flags excluded",
+  "target": "Y1 = 100 * (event-day TS_AT - Train seasonal normal-day baseline) / baseline",
+  "feature_sets": {
+    "A_weather_region_industry": [
+      "avg_temp",
+      "min_temp",
+      "max_temp",
+      "MCT_SGG_CD",
+      "MCT_RY_CD"
+    ],
+    "B_plus_past_sales": [
+      "avg_temp",
+      "min_temp",
+      "max_temp",
+      "lag1",
+      "lag7",
+      "rolling7",
+      "rolling28",
+      "MCT_SGG_CD",
+      "MCT_RY_CD"
+    ],
+    "C_plus_flow_population": [
+      "avg_temp",
+      "min_temp",
+      "max_temp",
+      "lag1",
+      "lag7",
+      "rolling7",
+      "rolling28",
+      "flow_pop_weekday",
+      "MCT_SGG_CD",
+      "MCT_RY_CD"
+    ]
+  },
+  "excluded_features": [
+    "TS_AT",
+    "USE_CNT",
+    "Y",
+    "avg_price",
+    "heavy_rain",
+    "rainfall"
+  ],
+  "lag_and_rolling": {
+    "lag1": "calendar t-1",
+    "lag7": "calendar t-7",
+    "rolling7": "t-7..t-1; all 7 daily values required",
+    "rolling28": "t-28..t-1; all 28 daily values required",
+    "zero_fill": false
+  },
+  "missing_input_policy": "Keep missing during feature construction; numeric median and categorical most-frequent imputation are fit separately on each disaster/feature-set Train rows only.",
+  "flow_feature": "Monthly weekday flow-population values summed over matching 50m BLOCK_CD cells; selected by date month and weekday. This is a monthly weekday profile, not a daily observed count.",
+  "flow_region_link": "BLOCK_CD first-five-character prefix mapping 11230->Gangnam-gu and 32010->Chuncheon-si; no exact merchant/block spatial crosswalk is present.",
+  "models_run": [
+    "Linear Regression",
+    "Ridge",
+    "Random Forest",
+    "Gradient Boosting",
+    "Extra Trees",
+    "HistGradientBoosting"
+  ],
+  "optional_packages_installed": {
+    "xgboost": false,
+    "lightgbm": false,
+    "catboost": false,
+    "shap": false
+  },
+  "optional_model_import_errors": {},
+  "permutation_importance_repeats": 5,
+  "shap": {
+    "available": false,
+    "used": false
+  },
+  "interpretation_note": "Predictive explanation and permutation importance are not causal evidence. Y1 uses Train normal-day means; flow is a monthly weekday profile, not a daily observed flow count."
+}

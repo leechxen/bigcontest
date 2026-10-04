@@ -1,0 +1,89 @@
+﻿hazard,model,feature,importance_mean,importance_std
+heatwave,Linear Regression,avg_temp,-0.030596627380871412,0.19350660483417428
+heatwave,Linear Regression,min_temp,0.031769319963284914,0.037175631966951644
+heatwave,Linear Regression,max_temp,0.04667507138621332,0.05455825948758747
+heatwave,Linear Regression,month,0.08064857043029719,0.09417721873496483
+heatwave,Linear Regression,weekday,0.14665142737241227,0.1695606903398129
+heatwave,Linear Regression,lag1,1.2433904533191076,0.2650906921595634
+heatwave,Linear Regression,lag7,0.6037943556552712,0.5002300229802225
+heatwave,Linear Regression,rolling7,4.2363973778054325,0.6133021947979211
+heatwave,Linear Regression,rolling28,0.3758297467208074,0.10261455477430971
+heatwave,Linear Regression,MCT_SGG_CD,-0.03403721407785838,0.15041102914009283
+heatwave,Linear Regression,MCT_RY_CD,0.38114561961079546,1.4264451321263332
+heatwave,Ridge,avg_temp,-0.0011619664080299685,0.1553049560948376
+heatwave,Ridge,min_temp,0.016666469125115668,0.029813886326918414
+heatwave,Ridge,max_temp,0.024811389213643054,0.04438396231833164
+heatwave,Ridge,month,0.05687529587265203,0.0929295820712587
+heatwave,Ridge,weekday,0.10709454291217782,0.15971423521963415
+heatwave,Ridge,lag1,1.159055709365917,0.26791872064970634
+heatwave,Ridge,lag7,0.5739999599685582,0.519358004210836
+heatwave,Ridge,rolling7,4.176068311069724,0.5545753251296827
+heatwave,Ridge,rolling28,0.3995384622802881,0.1081743430434728
+heatwave,Ridge,MCT_SGG_CD,-0.002525875971866753,0.14441606114942976
+heatwave,Ridge,MCT_RY_CD,0.18785171674483864,1.2294102977577326
+heatwave,Random Forest,avg_temp,-0.23317547366867258,0.1266513746487412
+heatwave,Random Forest,min_temp,-0.10025496529910001,0.05910201339044041
+heatwave,Random Forest,max_temp,0.07032764745210329,0.07012093364657333
+heatwave,Random Forest,month,-1.4210854715202005e-15,2.8421709430404013e-15
+heatwave,Random Forest,weekday,0.49649681303545135,0.2449883064066561
+heatwave,Random Forest,lag1,2.1023238114255656,1.2198679635202243
+heatwave,Random Forest,lag7,9.651500708857004,0.9109965663068788
+heatwave,Random Forest,rolling7,7.236681645258775,0.9527415155602821
+heatwave,Random Forest,rolling28,7.006792883818449,1.0053846931270312
+heatwave,Random Forest,MCT_SGG_CD,0.04395302882898875,0.05638724309252123
+heatwave,Random Forest,MCT_RY_CD,-0.6310830855144822,1.053091751428831
+heatwave,Gradient Boosting,avg_temp,0.0,0.0
+heatwave,Gradient Boosting,min_temp,0.0,0.0
+heatwave,Gradient Boosting,max_temp,0.0,0.0
+heatwave,Gradient Boosting,month,0.0,0.0
+heatwave,Gradient Boosting,weekday,0.17704140906375584,0.21226090713296328
+heatwave,Gradient Boosting,lag1,0.4094780607117741,0.22941870374131676
+heatwave,Gradient Boosting,lag7,3.655439723071231,1.040234334085587
+heatwave,Gradient Boosting,rolling7,0.23763459210151297,0.24339732416033177
+heatwave,Gradient Boosting,rolling28,0.11447377193857236,0.18942434033825947
+heatwave,Gradient Boosting,MCT_SGG_CD,0.005580295137469449,0.011841484343922208
+heatwave,Gradient Boosting,MCT_RY_CD,1.9861779791327314,0.7431243843136651
+cold_wave,Linear Regression,avg_temp,2.043349852230358,0.7142876792084866
+cold_wave,Linear Regression,min_temp,-1.8963705374485045,1.5533614303064625
+cold_wave,Linear Regression,max_temp,4.830242103791866,1.2910914184578606
+cold_wave,Linear Regression,month,0.0,0.0
+cold_wave,Linear Regression,weekday,-1.932866007095876,1.622389511548906
+cold_wave,Linear Regression,lag1,0.12126129021936408,0.3723969286949836
+cold_wave,Linear Regression,lag7,1.0981333667591158,0.832932370998188
+cold_wave,Linear Regression,rolling7,1.277871874736323,0.506285196690979
+cold_wave,Linear Regression,rolling28,-0.13435222398364174,0.4684696647431883
+cold_wave,Linear Regression,MCT_SGG_CD,0.0,0.0
+cold_wave,Linear Regression,MCT_RY_CD,0.9956010557715729,1.4711725090130128
+cold_wave,Ridge,avg_temp,1.6638973634284704,0.43326922559829306
+cold_wave,Ridge,min_temp,-1.8292137646034612,0.9466142049788194
+cold_wave,Ridge,max_temp,3.531582440200667,0.7799370527522604
+cold_wave,Ridge,month,0.0,0.0
+cold_wave,Ridge,weekday,-1.8363525510679914,0.9599304854534056
+cold_wave,Ridge,lag1,0.8663278802809373,0.38474630783910224
+cold_wave,Ridge,lag7,0.6312879752903647,0.46716770267032204
+cold_wave,Ridge,rolling7,-0.054095016485648274,0.5406004272743357
+cold_wave,Ridge,rolling28,-0.10309832498485391,0.5467558567575386
+cold_wave,Ridge,MCT_SGG_CD,0.0,0.0
+cold_wave,Ridge,MCT_RY_CD,0.1716406643578189,0.8017104339412114
+cold_wave,Random Forest,avg_temp,-7.105427357601002e-16,2.131628207280301e-15
+cold_wave,Random Forest,min_temp,0.0,0.0
+cold_wave,Random Forest,max_temp,-7.105427357601002e-16,2.131628207280301e-15
+cold_wave,Random Forest,month,0.0,0.0
+cold_wave,Random Forest,weekday,-0.07089822202054137,0.10878681895939794
+cold_wave,Random Forest,lag1,3.6918895960598603,0.7676340913105117
+cold_wave,Random Forest,lag7,4.4819164774308895,0.8000700314599821
+cold_wave,Random Forest,rolling7,3.773845381397124,0.3764946614276919
+cold_wave,Random Forest,rolling28,7.628242003606078,0.6891077180503389
+cold_wave,Random Forest,MCT_SGG_CD,0.0,0.0
+cold_wave,Random Forest,MCT_RY_CD,1.43026984272015,0.872467280832355
+cold_wave,Gradient Boosting,avg_temp,0.0,0.0
+cold_wave,Gradient Boosting,min_temp,0.0,0.0
+cold_wave,Gradient Boosting,max_temp,0.0,0.0
+cold_wave,Gradient Boosting,month,0.0,0.0
+cold_wave,Gradient Boosting,weekday,0.08547130216732199,0.09972795571054927
+cold_wave,Gradient Boosting,lag1,-0.19284338211303478,0.34185272455065985
+cold_wave,Gradient Boosting,lag7,2.2097499372035174,0.48675119468989975
+cold_wave,Gradient Boosting,rolling7,-0.09966201647202055,0.25484187859952073
+cold_wave,Gradient Boosting,rolling28,0.9545989320830153,0.1874959106827654
+cold_wave,Gradient Boosting,MCT_SGG_CD,0.0,0.0
+cold_wave,Gradient Boosting,MCT_RY_CD,2.018044194451509,0.5840486198743533

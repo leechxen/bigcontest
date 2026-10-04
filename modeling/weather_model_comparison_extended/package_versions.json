@@ -1,0 +1,124 @@
+{
+  "python_executable": "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "python_version": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "pip_version": "25.2",
+  "packages": {
+    "numpy": {
+      "distribution_version": "2.3.3",
+      "import_ok": true,
+      "import_version_or_error": "2.3.3"
+    },
+    "pandas": {
+      "distribution_version": "2.3.3",
+      "import_ok": true,
+      "import_version_or_error": "2.3.3"
+    },
+    "scikit-learn": {
+      "distribution_version": "1.7.2",
+      "import_ok": true,
+      "import_version_or_error": "1.7.2"
+    },
+    "scipy": {
+      "distribution_version": "1.16.2",
+      "import_ok": true,
+      "import_version_or_error": "1.16.2"
+    },
+    "joblib": {
+      "distribution_version": "1.5.2",
+      "import_ok": true,
+      "import_version_or_error": "1.5.2"
+    },
+    "xgboost": {
+      "distribution_version": "3.4.1",
+      "import_ok": true,
+      "import_version_or_error": "3.4.1"
+    },
+    "lightgbm": {
+      "distribution_version": "4.7.0",
+      "import_ok": true,
+      "import_version_or_error": "4.7.0"
+    },
+    "catboost": {
+      "distribution_version": "1.2.10",
+      "import_ok": true,
+      "import_version_or_error": "1.2.10"
+    },
+    "narwhals": {
+      "distribution_version": "2.26.0",
+      "import_ok": true,
+      "import_version_or_error": "2.26.0"
+    },
+    "shap": {
+      "distribution_version": null,
+      "import_ok": false,
+      "import_version_or_error": "ModuleNotFoundError(\"No module named 'shap'\")"
+    },
+    "numba": {
+      "distribution_version": null,
+      "import_ok": false,
+      "import_version_or_error": "ModuleNotFoundError(\"No module named 'numba'\")"
+    },
+    "slicer": {
+      "distribution_version": null,
+      "import_ok": false,
+      "import_version_or_error": "ModuleNotFoundError(\"No module named 'slicer'\")"
+    },
+    "tqdm": {
+      "distribution_version": null,
+      "import_ok": false,
+      "import_version_or_error": "ModuleNotFoundError(\"No module named 'tqdm'\")"
+    },
+    "cloudpickle": {
+      "distribution_version": null,
+      "import_ok": false,
+      "import_version_or_error": "ModuleNotFoundError(\"No module named 'cloudpickle'\")"
+    },
+    "llvmlite": {
+      "distribution_version": null,
+      "import_ok": false,
+      "import_version_or_error": "ModuleNotFoundError(\"No module named 'llvmlite'\")"
+    }
+  },
+  "installation_actions": [
+    {
+      "package": "xgboost",
+      "installed_version": "3.4.1",
+      "method": "pip --no-deps --only-binary=:all:"
+    },
+    {
+      "package": "lightgbm",
+      "installed_version": "4.7.0",
+      "method": "pip --no-deps --only-binary=:all:"
+    },
+    {
+      "package": "catboost",
+      "installed_version": "1.2.10",
+      "method": "pip --no-deps --only-binary=:all:"
+    },
+    {
+      "package": "narwhals",
+      "installed_version": "2.26.0",
+      "reason": "LightGBM 4.7.0 import required this missing dependency; installed without changing other packages"
+    },
+    {
+      "package": "shap",
+      "status": "not installed; not attempted",
+      "reason": "Optional; supporting packages numba, slicer, tqdm, cloudpickle, llvmlite are absent, so installation would require expanding the dependency set. Permutation importance is used instead."
+    }
+  ],
+  "core_package_versions_before_booster_install": {
+    "numpy": "2.3.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.16.2",
+    "joblib": "1.5.2"
+  },
+  "core_package_versions_after_install": {
+    "numpy": "2.3.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.16.2",
+    "joblib": "1.5.2"
+  },
+  "core_dependencies_changed": false
+}

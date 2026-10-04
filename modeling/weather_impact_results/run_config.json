@@ -1,0 +1,44 @@
+{
+  "input": "C:\\Users\\admin\\Desktop\\bigcontest\\modeling\\modeling_dataset_v2_filtered.csv",
+  "seed": 20261003,
+  "ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "features": [
+    "avg_temp",
+    "min_temp",
+    "max_temp",
+    "month",
+    "weekday",
+    "lag1",
+    "lag7",
+    "rolling7",
+    "rolling28",
+    "MCT_SGG_CD",
+    "MCT_RY_CD"
+  ],
+  "excluded_features": [
+    "TS_AT",
+    "USE_CNT",
+    "Y",
+    "avg_price",
+    "heavy_rain",
+    "rainfall"
+  ],
+  "rolling_min_periods": {
+    "rolling7": 7,
+    "rolling28": 28
+  },
+  "model_missing_policy": "Features remain NA at construction; numeric median and categorical most-frequent imputation fit on Train event rows only",
+  "lag_availability_assumption": "Historical observed TS_AT through t-1 is available even when its date belongs to Validation/Test; retrospective sequential-day analysis",
+  "baseline_rule": "Train split, seasonal months, event flag exactly 0; NA excluded",
+  "split_group_rule": "Monday weeks unioned across contiguous regional hazard episodes",
+  "models": [
+    "Linear Regression",
+    "Ridge",
+    "Random Forest",
+    "Gradient Boosting"
+  ]
+}

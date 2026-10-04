@@ -1,0 +1,34 @@
+{
+  "reference": "Gradient Boosting + B_plus_past_sales from the existing extended comparison",
+  "source_csv_modified": false,
+  "split_y1_baseline_episode_definitions_changed": false,
+  "split_seed": 20261003,
+  "saved_prediction_reproduction_max_abs_difference": 7.105427357601002e-15,
+  "shap_available": false,
+  "shap_action": "Not run; SHAP is absent and was not installed. Permutation importance was used.",
+  "permutation": {
+    "group_repeats": 50,
+    "single_feature_repeats": 30,
+    "score": "increase in Test MAE after permutation; positive means prediction error increased"
+  },
+  "outlier_rule": "Train Y1 1st and 99th percentiles; report full Test, Test within these bounds, and a winsorized diagnostic (clip both actual/predicted). No refitting or trimming of training rows.",
+  "episode_summary_rule": "Event-day mean across available industry rows, then equal-weight average across dates inside the existing regional hazard episode. Episodes, not industry rows, are the event units.",
+  "interpretation_limits": [
+    "Permutation importance is not causal and correlated features can share or mask importance.",
+    "The Test split contains very few independent event region-days; permutation and episode diagnostics are unstable.",
+    "Training predictions are in-sample and must not be interpreted as generalization performance.",
+    "Observed same-day temperatures and historical sales imply retrospective impact estimation, not pre-event forecasting."
+  ],
+  "train_y1_bounds": {
+    "heatwave": {
+      "train_p01": -96.55921514780411,
+      "train_p99": 300.8368593001482,
+      "train_n": 3786
+    },
+    "cold_wave": {
+      "train_p01": -96.51339938318289,
+      "train_p99": 287.73012496973485,
+      "train_n": 961
+    }
+  }
+}

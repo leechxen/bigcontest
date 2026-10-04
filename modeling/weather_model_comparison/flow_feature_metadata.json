@@ -1,0 +1,71 @@
+{
+  "source_files": [
+    "flow_wkdy_pop_202507.csv",
+    "flow_wkdy_pop_202508.csv",
+    "flow_wkdy_pop_202509.csv",
+    "flow_wkdy_pop_202510.csv",
+    "flow_wkdy_pop_202511.csv",
+    "flow_wkdy_pop_202512.csv"
+  ],
+  "prefix_to_region": {
+    "11230": "서울 강남구",
+    "32010": "강원 춘천시"
+  },
+  "ignored_block_prefixes": [
+    "11030",
+    "11040",
+    "11220",
+    "11240",
+    "31370",
+    "32310",
+    "32370",
+    "32380"
+  ],
+  "coverage": [
+    {
+      "file": "flow_wkdy_pop_202507.csv",
+      "month": "202507",
+      "matched_grid_rows": 117718,
+      "matched_blocks": 2776,
+      "prefixes": "11230|32010"
+    },
+    {
+      "file": "flow_wkdy_pop_202508.csv",
+      "month": "202508",
+      "matched_grid_rows": 118849,
+      "matched_blocks": 2776,
+      "prefixes": "11230|32010"
+    },
+    {
+      "file": "flow_wkdy_pop_202509.csv",
+      "month": "202509",
+      "matched_grid_rows": 119755,
+      "matched_blocks": 2776,
+      "prefixes": "11230|32010"
+    },
+    {
+      "file": "flow_wkdy_pop_202510.csv",
+      "month": "202510",
+      "matched_grid_rows": 120532,
+      "matched_blocks": 2776,
+      "prefixes": "11230|32010"
+    },
+    {
+      "file": "flow_wkdy_pop_202511.csv",
+      "month": "202511",
+      "matched_grid_rows": 122140,
+      "matched_blocks": 2776,
+      "prefixes": "11230|32010"
+    },
+    {
+      "file": "flow_wkdy_pop_202512.csv",
+      "month": "202512",
+      "matched_grid_rows": 242342,
+      "matched_blocks": 2776,
+      "prefixes": "11230|32010"
+    }
+  ],
+  "definition": "Monthly weekday flow-population values summed over matching 50m BLOCK_CD cells; selected by date month and weekday. This is a monthly weekday profile, not a daily observed count.",
+  "matched_feature_rows": 29586,
+  "unmatched_feature_rows": 0
+}
