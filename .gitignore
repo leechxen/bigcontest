@@ -7,5 +7,6 @@
 /modeling/modeling_dataset*.csv
 /modeling/weather_daily.csv
 /modeling/analysis_gb_feature_b/test_outlier_rows.csv
+/modeling/weather_impact_results/test_region_industry_response.csv
 /modeling/weather_model_comparison/predictions.csv
 /modeling/weather_model_comparison_extended/predictions_extended.csv
