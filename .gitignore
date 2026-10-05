@@ -2,6 +2,8 @@
 /flow_data/
 /weather_data/
 /catboost_info/
+/__pycache__/
+/.venv/
 /modeling/__pycache__/
 /modeling/daily_card_agg.csv
 /modeling/modeling_dataset*.csv
